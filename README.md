@@ -1,49 +1,6 @@
 <img width="935" height="929" alt="image" src="https://github.com/user-attachments/assets/162c24af-3520-4c37-b0f0-d0b76b1d770e" />
-```markdown
-# Melhorador de Fotos com IA
-![Screenshot do Projeto](screenshot.png)
-Uma aplicação web que utiliza técnicas de processamento de imagem simuladas por IA para melhorar fotos. Ajuste parâmetros como brilho, contraste, saturação e nitidez, e aplique efeitos especiais para transformar suas fotos em imagens profissionais.
-## Recursos
-- **Upload de imagens**: Arraste e solte ou selecione uma imagem para processar
-- **Controles de ajuste**: 
-  - Brilho
-  - Contraste
-  - Saturação
-  - Nitidez
-- **Efeitos de IA**:
-  - Otimizado (padrão)
-  - Noturno
-  - Retrato
-  - Natureza
-  - Urbano
-  - Artístico
-- **Visualização em tempo real**: Veja o antes e depois simultaneamente
-- **Comparação interativa**: Use o slider para comparar a imagem original com a melhorada
-- **Download**: Baixe sua foto melhorada em alta qualidade
-- **Interface responsiva**: Funciona em desktop e dispositivos móveis
-## Tecnologias Utilizadas
-- HTML5
-- CSS3 (com Flexbox e Grid)
-- JavaScript (Vanilla)
-- Font Awesome (ícones)
-## Como Usar
-1. Abra o arquivo `index.html` em qualquer navegador moderno
-2. Clique em "Selecionar Arquivo" ou arraste e solte uma imagem na área designada
-3. Ajuste os controles deslizantes conforme desejado
-4. Clique no botão "Melhorar Foto com IA" para processar a imagem
-5. Selecione um efeito de IA na seção de efeitos
-6. Use o slider de comparação para ver as diferenças entre a original e a melhorada
-7. Clique em "Baixar Foto Melhorada" para salvar o resultado
-## Estrutura do Projeto
-```
-melhorador-fotos-ia/
-├── index.html            # Arquivo principal
-├── README.md             # Este arquivo
-└── screenshot.png        # Captura de tela do projeto
-```
-## Personalização
-Você pode personalizar os efeitos de IA modificando as funções de filtro no arquivo JavaScript:
-```javascript
+melhore # Melhorador de Fotos com IA ![Screenshot do Projeto](screenshot.png) Uma aplicação web que utiliza técnicas de processamento de imagem simuladas por IA para melhorar fotos. Ajuste parâmetros como brilho, contraste, saturação e nitidez, e aplique efeitos especiais para transformar suas fotos em imagens profissionais. ## Recursos - **Upload de imagens**: Arraste e solte ou selecione uma imagem para processar - **Controles de ajuste**: - Brilho - Contraste - Saturação - Nitidez - **Efeitos de IA**: - Otimizado (padrão) - Noturno - Retrato - Natureza - Urbano - Artístico - **Visualização em tempo real**: Veja o antes e depois simultaneamente - **Comparação interativa**: Use o slider para comparar a imagem original com a melhorada - **Download**: Baixe sua foto melhorada em alta qualidade - **Interface responsiva**: Funciona em desktop e dispositivos móveis ## Tecnologias Utilizadas - HTML5 - CSS3 (com Flexbox e Grid) - JavaScript (Vanilla) - Font Awesome (ícones) ## Como Usar 1. Abra o arquivo index.html em qualquer navegador moderno 2. Clique em "Selecionar Arquivo" ou arraste e solte uma imagem na área designada 3. Ajuste os controles deslizantes conforme desejado 4. Clique no botão "Melhorar Foto com IA" para processar a imagem 5. Selecione um efeito de IA na seção de efeitos 6. Use o slider de comparação para ver as diferenças entre a original e a melhorada 7. Clique em "Baixar Foto Melhorada" para salvar o resultado ## Estrutura do Projeto melhorador-fotos-ia/ ├── index.html # Arquivo principal ├── README.md # Este arquivo └── screenshot.png # Captura de tela do projeto ## Personalização Você pode personalizar os efeitos de IA modificando as funções de filtro no arquivo JavaScript:
+javascript
 function applyEffectToEnhanced() {
     let effectFilter = '';
     
@@ -59,16 +16,14 @@ function applyEffectToEnhanced() {
     
     // Aplicar filtro
 }
-```
-## Limitações
-- Este projeto é uma simulação que utiliza filtros CSS para demonstrar o conceito
-- Não utiliza inteligência artificial real (apenas efeitos visuais simulados)
-- O processamento ocorre inteiramente no navegador
-## Licença
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
----
-**Nota**: Este projeto foi desenvolvido para fins de demonstração. Para um sistema real de melhoria de fotos com IA, seriam necessárias tecnologias mais avançadas como TensorFlow.js ou integração com APIs de IA especializadas.
-```
+Limitações
+Este projeto é uma simulação que utiliza filtros CSS para demonstrar o conceito
+Não utiliza inteligência artificial real (apenas efeitos visuais simulados)
+O processamento ocorre inteiramente no navegador
+Licença
+Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para detalhes.
+Nota: Este projeto foi desenvolvido para fins de demonstração. Para um sistema real de melhoria de fotos com IA, seriam necessárias tecnologias mais avançadas como TensorFlow.js ou integração com APIs de IA especializadas.
+
 Este README fornece uma visão geral completa do projeto, incluindo:
 - Recursos principais
 - Tecnologias utilizadas
@@ -149,6 +104,10 @@ Clique em "Melhorar Foto com IA" para aplicar as melhorias
 Acompanhe o progresso na tela de processamento
 
 Compare e baixe:
+
+Use o slider de comparação para ver as diferenças
+
+Clique em "Baixar Foto Melhorada" para salvar o resultado
 
 Use o slider de comparação para ver as diferenças
 
