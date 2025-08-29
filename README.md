@@ -1,3 +1,4 @@
+<img width="935" height="929" alt="image" src="https://github.com/user-attachments/assets/162c24af-3520-4c37-b0f0-d0b76b1d770e" />
 ```markdown
 # Melhorador de Fotos com IA
 ![Screenshot do Projeto](screenshot.png)
